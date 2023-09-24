@@ -11,7 +11,7 @@
             </li>
         <% } %>
         <li>
-            <strong><%- __('copyright.link') %>:</strong> <%= getPostUrl((theme.info.url || config.url), page.path) %>
+            <strong><%- __('copyright.link') %>:</strong> <a href="<%= getPostUrl((theme.info.url || config.url), encodeURI(page.path)) %>"><%= getPostUrl((theme.info.url || config.url), encodeURI(page.path)) %></a>
         </li>
         <li>
             <strong>
@@ -35,10 +35,10 @@
                 <% } else if (page.license === 'public_domain') { %>
                     <%- __('copyright.public_domain') %>
                 <% } else { %>
-                    <%- __('copyright.license_content', '<a class="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>') %>
+                    <%- __('copyright.license_content', '<a class="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a>') %>
                 <% } %>
             <% } else { %>
-            <%- __('copyright.license_content', '<a class="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>') %>
+                <%- __('copyright.license_content', '<a class="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a>') %>
             <% } %>
 
         </li>
