@@ -93,6 +93,7 @@ hexo.extend.helper.register("renderJS", function (path) {
   const cdnProviders = {
     unpkg: "https://unpkg.com",
     jsdelivr: "https://cdn.jsdelivr.net/npm",
+    srcdn: "https://jsd.onmicrosoft.cn/npm",
     aliyun: "https://evan.beee.top/projects",
     custom: this.theme.cdn.custom_url,
   };
