@@ -133,6 +133,7 @@ hexo.extend.helper.register("renderModuleJS", function (path) {
   const cdnProviders = {
     unpkg: "https://unpkg.com",
     jsdelivr: "https://cdn.jsdelivr.net/npm",
+    srcdn: "https://jsd.onmicrosoft.cn/npm",
     aliyun: "https://evan.beee.top/projects",
     custom: this.theme.cdn.custom_url,
   };
@@ -172,6 +173,7 @@ hexo.extend.helper.register("renderCSS", function (path) {
   const cdnProviders = {
     unpkg: "//unpkg.com",
     jsdelivr: "//cdn.jsdelivr.net/npm",
+    srcdn: "//jsd.onmicrosoft.cn/npm",
     aliyun: "//evan.beee.top/projects",
     custom: this.theme.cdn.custom_url,
   };

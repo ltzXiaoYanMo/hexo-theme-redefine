@@ -401,7 +401,7 @@ page_templates:
 # CDN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: srcdn # jsdelivr, unpkg, aliyun, srcdn, custom
   # Custom CDN URL
