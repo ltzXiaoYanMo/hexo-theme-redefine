@@ -355,11 +355,54 @@ inject:
   # Whether to enable inject
   enable: true
   # Inject custom head html code
-  head: []
+  head:
+    - |-
+      <script src="/js/sakura.min.js"></script>
+      <link rel="stylesheet" href="/css/sakura.min.css">
+    - |-
+      <script src="/js/clickeffect.js"></script>
   # Inject custom footer html code
   footer:
-    - '<a href="https://ipw.cn/ipv6webcheck/?site=blog.1l1.icu" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-s4.svg"></a>'
-    - '<div title="MySSL 安全签章" id="myssl_seal" onclick="window.open("https://myssl.com/seal/detail?domain=1l1.icu","MySSL安全签章","height=800,width=470,top=0,right=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no")" style="text-align: center"><img style="display:inline-block;vertical-align:middle" src="https://sealres.myssl.com/seal/img/1x/seal.png?domain=1l1.icu" alt="MySSL 安全签章" style="width: 100px; height: auto; cursor: pointer"></div>'
+    - |-
+      <a href="https://ipw.cn/ipv6webcheck/?site=blog.1l1.icu" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-s4.svg"></a>
+    - |-
+      <div title="MySSL 安全签章" id="myssl_seal" onclick="window.open('https://myssl.com/seal/detail?domain=blog.1l1.icu','MySSL安全签章','height=800,width=470,top=0,right=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no')" style="text-align: center"><img src="https://sealres.myssl.com/seal/img/1x/seal.svg?domain=blog.1l1.icu" alt="MySSL 安全签章" style="width: 100px; height: auto; cursor: pointer"></div>
+    - |-
+      <script>
+      console.log("Init click effect");
+      clickEffect();
+      console.log("Init sakura effect");
+      var sakura = new Sakura('body', {
+        colors: [
+          {
+            gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+            gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(255,189,189)',
+            gradientColorEnd: 'rgba(227,170,181)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(212,152,163)',
+            gradientColorEnd: 'rgba(242,185,196)',
+            gradientColorDegree: 120,
+          },
+        ],
+      });
+      let sakura_stop = false;
+      function controlSakura() {
+        if (sakura_stop) {
+          sakura.start();
+          sakura_stop = false;
+        } else {
+          sakura.stop(true);
+          sakura_stop = true;
+        }
+        console.log("Sakura control: " + sakura_stop);
+      }
+      </script>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
