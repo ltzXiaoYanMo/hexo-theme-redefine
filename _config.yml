@@ -357,6 +357,8 @@ inject:
   # Inject custom head html code
   head:
     - |-
+      <link rel="stylesheet" href="/css/extra.css">
+    - |-
       <script src="/js/sakura.min.js"></script>
       <link rel="stylesheet" href="/css/sakura.min.css">
     - |-
