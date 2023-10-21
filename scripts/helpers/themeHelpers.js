@@ -45,7 +45,6 @@ hexo.extend.filter.register("after_post_render", function (data) {
     const container =
       '<div class="highlight-container" data-rel="' +
       language.toUpperCase() +
-      language.slice(1) +
       '">' +
       replaced +
       "</div>";
