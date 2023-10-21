@@ -21,6 +21,22 @@ hexo.extend.filter.register("after_post_render", function (data) {
     let language = p1 || "code";
     if (language === "plain") {
       language = "code";
+    } else if (language === "js") {
+      language = "javascript";
+    } else if (language === "ts") {
+      language = "typescript";
+    } else if (language === "yml") {
+      language = "yaml";
+    } else if (language === "rs") {
+      language = "rust";
+    } else if (language === "ps1") {
+      language = "powershell";
+    } else if (language === "shell") {
+      language = "bash";
+    } else if (language === "sh") {
+      language = "bash";
+    } else if (language === "cmd") {
+      language = "bat";
     }
     const replaced = match.replace(
       '<figure class="highlight ',
@@ -28,7 +44,7 @@ hexo.extend.filter.register("after_post_render", function (data) {
     );
     const container =
       '<div class="highlight-container" data-rel="' +
-      language.charAt(0).toUpperCase() +
+      language.toUpperCase() +
       language.slice(1) +
       '">' +
       replaced +
