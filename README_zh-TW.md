@@ -10,10 +10,9 @@
 
 # hexo-theme-redefine
 
-"Redefine" 是一個簡潔、快速、純净的 hexo 主題。簡潔，但不簡單。本主題包含很多廣泛使用的功能，並擁有著優秀的設計。
+"Redefine" 是一款簡潔、快速、純粹的 Hexo 主題，其簡約之美遙非平凡，讓人領略到設計的力量。本主題不僅包含諸多實用豐富的功能，而且賦予了精緻而出色的設計理念。
 
-本主題基於 [hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) 開發，感謝 XPoet 的開源。本主題主要優化了樣式，增加了寫作模塊，以及各種插件的支持。同時加大自定義程度，讓你可以更加方便的使用本主題。
-
+本主題源自 [hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) 的早期版本，進一步進行了精心打磨和擴展。在保留了原主題的精煉基礎上，我們優化了整體風格，引入了豐富的寫作模組，並增添了多種插件支持。同時，大幅提高了自定義的靈活度，旨在讓您能夠更加便捷、順暢地運用本主題，打造出獨具匠心的個人博客。
 <p align="center">
     <a href="https://www.npmjs.com/package/hexo-theme-redefine">
         <img src="https://img.shields.io/npm/v/hexo-theme-redefine?color=F38181&amp;label=version&amp;logo=npm&amp;logoColor=F38181&amp;style=for-the-badge" referrerpolicy="no-referrer" alt="NPM version" />
@@ -30,13 +29,19 @@
 
 
 
-## 📷 屏幕截圖
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/863f7dd7-2f59-4ef4-a876-5b0a707289b1" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/92427ac8-fbb8-4ce9-9807-5d0ed98484ac" />
+  <img alt="Cover Image" src="https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/863f7dd7-2f59-4ef4-a876-5b0a707289b1" />
+</picture>
 
-![redefine-1-final](https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/1c4f802b-b949-4313-8935-6ea5178be9e3)
-
-![redefine-2-final](https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/bf6529a6-bce9-4388-899c-1d96325c49d6)
-
-![redefine-3-final](https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/33ee3d7c-189c-4b75-89c9-914b0cb63caf)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/5c1f93ec-ff0d-4459-83c1-894b7538f713" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/ee04971c-a199-448b-a91c-6f4bbe17d105" />
+  <img alt="Pages Image" src="https://github.com/EvanNotFound/hexo-theme-redefine/assets/68590232/5c1f93ec-ff0d-4459-83c1-894b7538f713" />
+</picture>
+</p>
 
 
 ## 🌐 在線演示站
