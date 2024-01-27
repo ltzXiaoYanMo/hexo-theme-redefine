@@ -11,7 +11,9 @@ page: Page %d
 recent_posts: Recent Posts
 share: Share
 powered_by: "POWERED BY %s"
+modified_by: "Modified by %s"
 theme: THEME
+base_theme: BASE ON THEME
 rss_feed: RSS Feed
 category: Category
 categories: Categories

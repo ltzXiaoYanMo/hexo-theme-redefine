@@ -12,6 +12,8 @@ recent_posts: 最新文章
 share: 分享
 powered_by: "由 %s 驱动"
 theme: 主题
+base_theme: 基于主题
+modified_by: "由 %s 修改"
 rss_feed: RSS Feed
 category: 分类
 categories: 分类
