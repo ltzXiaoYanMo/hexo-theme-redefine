@@ -206,6 +206,9 @@ navbar:
     About: 
       path: /about
       icon: fa-regular fa-user
+    travellings:
+      path: https://travellings.cn/go.html
+      icon: fa-regular fa-subway
     # Links: 
     #   icon: fa-regular fa-link
     #  
