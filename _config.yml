@@ -389,6 +389,10 @@ footer:
     enable: true # Whether to enable
     number: 浙ICP备2024084850号-1 # ICP record number
     url: https://beian.miit.gov.cn/ # ICP record url
+  mps:
+    enable: true # Whether to enable
+    number: 浙公网安备33038102332470号 # MPS number
+    url: https://beian.mps.gov.cn/#/query/webSearch?code=33038102332470 # Must change it to your own
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

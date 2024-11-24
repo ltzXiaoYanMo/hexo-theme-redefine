@@ -62,6 +62,16 @@
                 "><%= theme.footer.icp.number %></a></div>
         <% } %>
         <% if (theme.footer.runtime === true) {%>
+        <% if (theme.footer.mps.enable && theme.footer.mps.hasOwnProperty('number')) { %>
+            <div class="mps-info my-1"><a target="_blank" rel="nofollow" href="
+                <% if (theme.footer.mps.hasOwnProperty('url') && theme.footer.mps.url) { %>
+                    <%= theme.footer.mps.url %>
+                <% } else { %>
+                https://beian.mps.gov.cn/#/query/webSearch
+                <% } %>
+                "><%= theme.footer.mps.number %></a></div>
+        <% } %>
+        <% if (theme.footer.runtime === true) {%>
             <div>
                 <%= __('runtime') %> <span class="odometer" id="runtime_days" ></span> <%= __('days') %> <span class="odometer" id="runtime_hours"></span> <%= __('hours') %> <span class="odometer" id="runtime_minutes"></span> <%= __('minutes') %> <span class="odometer" id="runtime_seconds"></span> <%= __('seconds') %>
             </div>
@@ -92,7 +102,7 @@
                     <% } else { %>
                         <%- theme.inject.footer[i] %>
                 <% } } %>
-        <% } }%>
+        <% } }}%>
         
     </div>  
 </footer>
