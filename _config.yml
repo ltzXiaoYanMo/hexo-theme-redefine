@@ -23,11 +23,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://cravatar.cn/avatar/d03f4b96830060cab36b44646cf426e3
+  favicon: https://avatar.ymbit.cn
   # Site logo
-  logo: https://cravatar.cn/avatar/d03f4b96830060cab36b44646cf426e3
+  logo: https://avatar.ymbit.cn
   # Site avatar
-  avatar: https://cravatar.cn/avatar/d03f4b96830060cab36b44646cf426e3
+  avatar: https://avatar.ymbit.cn
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
