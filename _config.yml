@@ -195,16 +195,16 @@ navbar:
   # 导航栏链接
   links:
     Home: 
-      path: / 
+      path: https://blog.ymbit.cn/
       icon: fa-regular fa-house # 可以为空
     Links: 
-      path: /links/
+      path: https://blog.ymbit.cn/links/
       icon: fa-regular fa-link
     Status: 
       path: https://status.ymbit.cn/status/ymstatus
       icon: fa-regular fa-chart-bar
     About: 
-      path: /about/
+      path: https://blog.ymbit.cn/about/
       icon: fa-regular fa-user
     travellings:
       path: https://www.travellings.cn/go.html
